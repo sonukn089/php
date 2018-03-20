@@ -16,6 +16,8 @@
 		echo "Hello Pushpender !";
 		echo "<br>";
 		echo "Hello Neeraj !";
+		echo "<br>";
+		echo "Hello Satyendra !";
 	?>
 
 </body>
