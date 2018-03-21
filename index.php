@@ -30,7 +30,14 @@
 		echo "Hello Sarthak !";
 		echo "<br>";
 		echo "Hello Anand !";
+		echo "My first PHP script!";
 
+	?>
+	<hr>
+	<br>
+	<?php
+		$cars = array("Volvo", "BMW", "Toyota");
+		echo "I like " . $cars[0] . ", " . $cars[1] . " and " . $cars[2] . ".";
 	?>
 
 </body>
