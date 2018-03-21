@@ -5,7 +5,7 @@
 </head>
 <body>
 
-	<h1>My first page!</h1>
+	<h1 style="color: red;">My first page!</h1>
 
 	<?php
 
@@ -18,6 +18,13 @@
 		echo "Hello Neeraj !";
 		echo "<br>";
 		echo "Hello Satyendra !";
+		echo "<br>";
+		echo "Hello Satyendra !";
+		echo "<br>";
+		echo "Hello Satyendra !";
+		echo "<br>";
+		echo "Hello Satyendra !";
+
 	?>
 
 </body>
