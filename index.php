@@ -100,6 +100,20 @@
 		yourTest();
 			echo $y; // outputs 15
 	?>
+	<hr>
+	<?php
+		function shyTest() {
+    		static $x = 0;
+    		echo $x;
+    		$x++;
+		}
+
+		shyTest();
+		echo "<br>";
+		shyTest();
+		echo "<br>";
+		shyTest();
+	?>
 </body>
 </html>
 
