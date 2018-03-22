@@ -87,8 +87,19 @@
 			// using x outside the function will generate an error
 			echo "<p>Variable x outside function is: $x</p>";
 	?>
+	<hr>
+	<?php
+		$x = 5;
+		$y = 10;
 
+		function yourTest() {
+    		global $x, $y;
+    		$y = $x + $y;
+		}
 
+		yourTest();
+			echo $y; // outputs 15
+	?>
 </body>
 </html>
 
