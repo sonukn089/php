@@ -56,8 +56,13 @@
 		$txt = "php";
 
 		echo "I love " . $txt . "!";
+	?>
+	<hr>
+	<?php
 
-
+		$x = 5;
+		$y = 4;
+		echo $x + $y . " !";
 	?>
 </body>
 </html>
