@@ -36,10 +36,15 @@
 	<hr>
 	<h1>An array stores multiple values</h1>
 	<?php
-		$cars = array("Volvo", "BMW", "Toyota");
-		echo "I like " . $cars[0] . ", " . $cars[1] . " and " . $cars[2] . ".";
+		$txt = "Hello world!";
+		$x = 5;
+		$y = 10.5;
+		echo $txt;
+		echo "<br>";
+		echo $x;
+		echo "<br>";
+		echo $y;
 	?>
-
 </body>
 </html>
 
