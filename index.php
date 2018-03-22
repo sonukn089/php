@@ -47,8 +47,16 @@
 	?>
 	<hr>
 	<?php
-	$txt = "Welcome to";
-	echo $txt ." php ";
+		$txt = "Welcome to";
+		echo $txt ." php ";
+
+	?>
+	<hr>
+	<?php
+		$txt = "php";
+
+		echo "I love " . $txt . "!";
+
 
 	?>
 </body>
