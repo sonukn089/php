@@ -45,6 +45,12 @@
 		echo "<br>";
 		echo $y;
 	?>
+	<hr>
+	<?php
+	$txt = "Welcome to";
+	echo $txt ." php ";
+
+	?>
 </body>
 </html>
 
