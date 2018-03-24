@@ -4,7 +4,9 @@
 	<title>Data Types</title>
 </head>
 <body>
-	<?php 
+	<?php
+	 
+		// A string is a sequence of characters, like "Hello world!".
 		$x = "Hello world!";
 		$y = 'Hello world!';
 
