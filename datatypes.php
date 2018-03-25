@@ -13,10 +13,19 @@
 		echo $x;
 		echo "<br>"; 
 		echo $y;
-
+		echo "<br>";
 		$a = 45;
 
-		var_dump($a)
+		var_dump($a);
+		echo "<br>";
+
+		$b = 50.45;
+		var_dump($b);
+		echo "<br>";
+
+		$car = array("volvo","BMW", "Toyota");
+
+		var_dump($car);
 	?>
 
 </body>
