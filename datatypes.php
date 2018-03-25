@@ -26,6 +26,28 @@
 		$car = array("volvo","BMW", "Toyota");
 
 		var_dump($car);
+		echo "<br>";
+
+		class Car {
+
+			function Car(){
+
+				$this->model = "V W";
+			}
+		}
+		// create an object
+
+		$herebie = new Car();
+
+		// show object properties
+
+		echo $herebie->model;
+
+
+
+
+
+
 	?>
 
 </body>
