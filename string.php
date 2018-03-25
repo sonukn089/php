@@ -12,6 +12,10 @@
 		echo "<br>";
 
 		echo str_word_count("Hello World!");
+
+		echo "<br>";
+		echo "<hr>";
+		echo strrev("Hello world!"); // 
 	?>
 
 </body>
