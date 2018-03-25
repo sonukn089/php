@@ -13,6 +13,10 @@
 		echo $x;
 		echo "<br>"; 
 		echo $y;
+
+		$a = 45;
+
+		var_dump($a)
 	?>
 
 </body>
