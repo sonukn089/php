@@ -8,6 +8,10 @@
 	<?php
 
 		echo strlen("Hello World!");
+
+		echo "<br>";
+
+		echo str_word_count("Hello World!");
 	?>
 
 </body>
