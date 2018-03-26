@@ -19,7 +19,10 @@
 		echo strrev("Hello world!"); //
 		echo "<hr>";
 
-		echo strpos("Hello World!", "World") 
+		echo strpos("Hello World!", "World");
+
+		echo "<hr>";
+		echo str_replace("World", "Dolly", "Hello World"); 
 	?>
 
 </body>
