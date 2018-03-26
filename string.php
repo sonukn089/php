@@ -15,7 +15,11 @@
 
 		echo "<br>";
 		echo "<hr>";
-		echo strrev("Hello world!"); // 
+
+		echo strrev("Hello world!"); //
+		echo "<hr>";
+
+		echo strpos("Hello World!", "World") 
 	?>
 
 </body>
