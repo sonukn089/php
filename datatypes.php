@@ -43,7 +43,13 @@
 
 		echo $herebie->model;
 
+		echo "<br>";
 
+		$c = "Hello world";
+
+		$c = null;
+
+		var_dump($c);
 
 
 
