@@ -7,8 +7,11 @@
 
 	<form method="post" action="process.php">
 
-		Name :
-		
+		Name : <input type="text" name="name" placeholder="name">
+		Email : <input type="text" name="email" placeholder="email address">
+		Address :
+		Passord :
+		Confirmation Passord :
 
 	</form>
 
