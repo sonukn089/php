@@ -5,9 +5,11 @@
 </head>
 <body>
 
-	<form>
+	<form method="post" action="process.php">
+
+		Name :
 		
-		
+
 	</form>
 
 </body>
