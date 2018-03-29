@@ -5,8 +5,7 @@
 	// echo $_POST['address'] . "<br/>";
 	// echo $_POST['city'] . "<br/>";
 	// echo $_POST['password'] . "<br/>";
-	// echo $_POST['confirmpassword']
-
+	// echo $_POST['confirmpassword'];
 
 	if ( $_POST['name'] ) {
 
