@@ -7,6 +7,7 @@
 	// echo $_POST['password'] . "<br/>";
 	// echo $_POST['confirmpassword']
 
+
 	if ( $_POST['name'] ) {
 
 		if ( $_POST['email'] ) {
