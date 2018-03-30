@@ -5,7 +5,7 @@
 </head>
 <body>
 
-	<form method="get" action="processform.php">
+	<form method="POST" action="processform.php">
 		<table>
 			<tr>
 				<td>Name :</td>
