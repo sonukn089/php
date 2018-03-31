@@ -18,8 +18,13 @@
 			<td>Password :</td>
 			<td><input type="password" name="password"></td>
 		</tr>
-		<input type="submit" name="register">
-		<input type="reset" value="reset">
+		<tr>
+			<td></td>
+			<td><input type="submit" name="register"></td>
+			<td><input type="reset" value="reset"></td>
+		</tr>
+		
+		
 	</table>
 
 </body>
