@@ -19,7 +19,7 @@
 			<td><input type="password" name="password"></td>
 		</tr>
 		<input type="submit" name="register">
-		<input type="reset" name="reset">
+		<input type="reset" value="reset">
 	</table>
 
 </body>
