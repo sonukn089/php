@@ -24,8 +24,6 @@
 			</tr>	
 		</table>
 	</form>
-
-	<a href="output.php">Click and See Data</a>
 	<h3>
 		<center>
 			<?php include("links.php"); ?>
