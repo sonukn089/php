@@ -20,10 +20,17 @@
 			</tr>
 			<tr>
 				<td></td>
-				<td><input type="submit" name="register"></td>
+				<td><input type="submit" value="Register"></td>
 			</tr>	
 		</table>
 	</form>
+
+	<a href="output.php">Click and See Data</a>
+	<h3>
+		<center>
+			<?php include("links.php"); ?>
+		</center>	
+	</h3>
 
 </body>
 </html>
