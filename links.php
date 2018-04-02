@@ -1,6 +1,4 @@
 
-
-
 <a href="home.php">Home</a>&nbsp;&nbsp;
 <a href="formdatabase.php">Register</a>&nbsp;&nbsp;
 <a href="insert.php">Edit User</a>&nbsp;&nbsp;
