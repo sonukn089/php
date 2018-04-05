@@ -4,10 +4,10 @@
 	<title></title>
 </head>
 <body>
-
+	
  	<h3>Edit User: <?php echo $_REQUEST['names']?></h3>
 
-	<form method="PSOT" action="change.php">
+	<form method="POST" action="change.php">
 
 		<table border="0" width="60%">
 
@@ -26,6 +26,8 @@
 				<td><input type="text" name="newpassword" value="<?php echo $_REQUEST['passwords'];?>"> </td>
 			</tr>
 
+			<input type="submit" value="Save & Update">
+			<input type="hidden" name="id" value="<?php echo $_REQUEST['ids']; ?>">
 			
 		</table>
 		
