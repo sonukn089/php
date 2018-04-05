@@ -18,12 +18,12 @@
 
 			<tr>
 				<td width="30%">Email:</td>
-				<td><input type="text" name="newemail" value="<?php echo $_REQUEST['names'];?>"> </td>
+				<td><input type="text" name="newemail" value="<?php echo $_REQUEST['emails'];?>"> </td>
 			</tr>
-			
+
 			<tr>
 				<td width="30%">Password:</td>
-				<td><input type="text" name="newpassword" value="<?php echo $_REQUEST['names'];?>"> </td>
+				<td><input type="text" name="newpassword" value="<?php echo $_REQUEST['passwords'];?>"> </td>
 			</tr>
 
 			
