@@ -5,7 +5,31 @@
 </head>
 <body>
 
-	<h3>Edit User: <?php echo $_REQUEST['names']</h3>?>
+ 	<h3>Edit User: <?php echo $_REQUEST['names']?></h3>
+
+	<form method="PSOT" action="change.php">
+
+		<table border="0" width="60%">
+
+			<tr>
+				<td width="30%">Name:</td>
+				<td><input type="text" name="newname" value="<?php echo $_REQUEST['names'];?>"> </td>
+			</tr>
+
+			<tr>
+				<td width="30%">Email:</td>
+				<td><input type="text" name="newemail" value="<?php echo $_REQUEST['names'];?>"> </td>
+			</tr>
+			
+			<tr>
+				<td width="30%">Password:</td>
+				<td><input type="text" name="newpassword" value="<?php echo $_REQUEST['names'];?>"> </td>
+			</tr>
+
+			
+		</table>
+		
+	</form>
 
 </body>
 </html>

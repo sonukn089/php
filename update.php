@@ -22,7 +22,7 @@
 
 		 echo "<tr><td align=center>
 		 
-		 	  <a href=\edit.php?ids=$id&names=$name&email=$email&password=$password\">$id</a></td>
+		 	  <a href=\edit.php?ids=$id&names=$name&emails=$email&passwords=$password\">$id</a></td>
 		 	  <td>$name</td><td>$email</td><td>$password</td></tr>";	
 	}	 
 
