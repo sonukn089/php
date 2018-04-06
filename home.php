@@ -7,11 +7,7 @@
 
 		<h1><center>Welcome to CURD Control Center</center></h1>
 		<hr>
-		<h3>
-			<center>
-				<?php include("links.php"); ?>
-			</center>	
-		</h3>
+		<?php include("links.php"); ?>
 	</body>
 
 </html>
