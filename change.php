@@ -11,5 +11,12 @@
 
 	mysql_query("UPDATE users SET name='$newname',email='$newemail', password='$newpassword' WHERE id='$id'");
 
+	echo "Your values have been updated succcessfuly!";
+
+	mysql_close();
+
+	include('links.php');
+
+
 
 ?>
