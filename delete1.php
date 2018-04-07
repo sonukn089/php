@@ -29,10 +29,15 @@
 
 	mysql_close();
 
-	include("links.php");
-
 ?>
 
-<form>
+<form method="POST" action="delete2.php">
+
+	<p>Are you sure you want to delete this user?</p>
+	<input type="submit" name="submit" value="OK">
+	<input type="hidden" name="id" value="<?php echo $_REQUEST['ids']; ?>">
 	
 </form>
+
+<?php include("links.php"); ?>
+
