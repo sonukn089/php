@@ -26,10 +26,17 @@
 				<td><input type="text" name="newpassword" value="<?php echo $_REQUEST['passwords'];?>"> </td>
 			</tr>
 
-			<input type="submit" value="Save & Update">
-			<input type="hidden" name="id" value="<?php echo $_REQUEST['ids']; ?>">
 			
+			<input type="hidden" name="id" value="<?php echo $_REQUEST['ids']; ?>">
 		</table>
+		
+		<table>
+			<tr>
+				<td><input type="submit" value="Save & Update"></td>
+			</tr>
+		</table>
+
+		
 		
 	</form>
 

@@ -13,8 +13,7 @@
 		 <td width==\"30%\" align=center bgcolor=\"FFFF00\">EMAIL</td>
 		 <td width==\"30%\" align=center bgcolor=\"FFFF00\">PASSWORD</td></tr>";
 
-	while ($row = mysql_fetch_array($result))
-
+	while ($row = mysql_fetch_array($result)){
 		//echo "<pre>";print_r($row);
 		
 		 $id=$row['id'];
@@ -31,6 +30,8 @@
 	echo "</table>";
 
 	mysql_close();
+
+	include("links.php");
 
 
 
