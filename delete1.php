@@ -4,7 +4,7 @@
 
 	mysql_select_db("testsite");
 
-	$result = mysql_query("SELECT * FROM users");
+	$result = mysql_query("SELECT * FROM users WHERE id='".$_REQUEST['ids']."'");
 
 	echo "<table width=\"75%\" align=center border=2>";
 
@@ -21,10 +21,8 @@
 		 $email=$row['email'];
 		 $password=$row['password'];
 
-		 echo "<tr><td align=center>
-		 
-		 	  <a href='delete1.php?ids=$id&names=$name&emails=$email&passwords=$password'>$id</a></td>
-		 	  <td>$name</td><td>$email</td><td>$password</td></tr>";	
+		 echo "<tr><td align=center>$id</a></td>
+		 <td>$name</td><td>$email</td><td>$password</td></tr>";	
 	}	 
 
 	echo "</table>";
@@ -33,6 +31,8 @@
 
 	include("links.php");
 
-
-
 ?>
+
+<form>
+	
+</form>
