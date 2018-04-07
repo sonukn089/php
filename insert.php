@@ -21,6 +21,6 @@
 		echo "You have to complete the form !";
 	}
 
-	mysql_close();
+	include("links.php");
 
 ?>

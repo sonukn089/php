@@ -1,12 +1,10 @@
 <?php
-
-	echo "<h3>Chose an id to edit:</h3>";
-
+	
 	mysql_connect("localhost", "root", "") or die("problem with connection...");
 
 	mysql_select_db("testsite");
 
-	$result = mysql_query("SELECT * FROM users");
+	$result = mysql_query("SELECT * FROM users WHERE id='".$_REQUEST['ids']."'");
 
 	echo "<table width=\"75%\" align=center border=2>";
 
@@ -23,18 +21,23 @@
 		 $email=$row['email'];
 		 $password=$row['password'];
 
-		 echo "<tr><td align=center>
-		 
-		 	  <a href='edit.php?ids=$id&names=$name&emails=$email&passwords=$password'>$id</a></td>
-		 	  <td>$name</td><td>$email</td><td>$password</td></tr>";	
+		 echo "<tr><td align=center>$id</a></td>
+		 <td>$name</td><td>$email</td><td>$password</td></tr>";	
 	}	 
 
 	echo "</table>";
 
 	mysql_close();
 
-	include("links.php");
-
-
-
 ?>
+
+<form method="POST" action="delete2.php">
+
+	<p>Are you sure you want to delete this user?</p>
+	<input type="submit" name="submit" value="OK">
+	<input type="hidden" name="id" value="<?php echo $_REQUEST['ids']; ?>">
+	
+</form>
+
+<?php include("links.php"); ?>
+

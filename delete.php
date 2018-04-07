@@ -1,7 +1,7 @@
 <?php
 
-	echo "<h3>Chose an id to edit:</h3>";
-
+	echo "<h3>Chose an id to delete:</h3>";
+	
 	mysql_connect("localhost", "root", "") or die("problem with connection...");
 
 	mysql_select_db("testsite");
@@ -25,7 +25,7 @@
 
 		 echo "<tr><td align=center>
 		 
-		 	  <a href='edit.php?ids=$id&names=$name&emails=$email&passwords=$password'>$id</a></td>
+		 	  <a href='delete1.php?ids=$id&names=$name&emails=$email&passwords=$password'>$id</a></td>
 		 	  <td>$name</td><td>$email</td><td>$password</td></tr>";	
 	}	 
 
