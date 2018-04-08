@@ -10,7 +10,13 @@
 
 		mysql_select_db("testsite");
 
-		mysql_query("INSERT INTO users(name,email,password) VALUES('$name','$email','$password')");
+		$username = mysql_query("SELECT name FROM users WHERE name='$name'");
+
+		$count = mysql_num_rows($username);
+
+		
+
+	 mysql_query("INSERT INTO users(name,email,password) VALUES('$name','$email','$password')");
 
 		$registered = mysql_affected_rows();
 
