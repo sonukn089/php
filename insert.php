@@ -16,6 +16,8 @@
 
 		if ($count != 0) {
 			
+			include("links.php");
+
 			die("Name already exists! please type another name");
 		}
 
@@ -29,7 +31,5 @@
 
 		echo "You have to complete the form !";
 	}
-
-	include("links.php");
 
 ?>
