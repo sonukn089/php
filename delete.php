@@ -16,6 +16,7 @@
 		 <td width==\"30%\" align=center bgcolor=\"FFFF00\">PASSWORD</td></tr>";
 
 	while ($row = mysql_fetch_array($result)){
+		
 		//echo "<pre>";print_r($row);
 		
 		 $id=$row['id'];
