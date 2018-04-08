@@ -14,7 +14,10 @@
 
 		$count = mysql_num_rows($username);
 
-		
+		if ($count != 0) {
+			
+			die("Name already exists! please type another name");
+		}
 
 	 mysql_query("INSERT INTO users(name,email,password) VALUES('$name','$email','$password')");
 
