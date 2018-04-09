@@ -16,19 +16,16 @@
 			$username = mysql_query("SELECT name FROM users WHERE name='$name'");
 
 			$count = mysql_num_rows($username);
-
 			if ($count != 0) {
-			
-				include("links.php");
+				// 	include("links.php");
+				// 	die("<b>ERROR: Name already exists! please type another name</b>");
+				// }
+				echo "This name is already registered! Please type another name";
+	 			mysql_query("INSERT INTO users(name,email,password) VALUES('$name','$email','$password')");
 
-				die("<b>ERROR: Name already exists! please type another name</b>");
+				$registered = mysql_affected_rows();
+				echo "<b>You have successfuly registered</b>";
 			}
-
-	 		mysql_query("INSERT INTO users(name,email,password) VALUES('$name','$email','$password')");
-
-			$registered = mysql_affected_rows();
-
-			echo "<b>You have successfuly registered</b>";
 		}
 		else{
 
