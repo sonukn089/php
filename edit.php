@@ -18,7 +18,8 @@
 
 			<tr>
 				<td width="30%">Email:</td>
-				<td><input type="text" name="newemail" value="<?php echo $_REQUEST['emails'];?>"> </td>
+				<td>
+					<input type="text" name="newemail" value="<?php echo $_REQUEST['emails'];?>"></td>
 			</tr>
 
 			<tr>

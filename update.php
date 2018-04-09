@@ -24,9 +24,8 @@
 		 $password=$row['password'];
 
 		 echo "<tr><td align=center>
-		 
-		 	  <a href='edit.php?ids=$id&names=$name&emails=$email&passwords=$password'>$id</a></td>
-		 	  <td>$name</td><td>$email</td><td>$password</td></tr>";	
+			<a href='edit.php?ids=$id&names=$name&emails=$email&passwords=$password'>$id</a></td>
+		    <td>$name</td><td>$email</td><td>$password</td></tr>";	
 	}	 
 
 	echo "</table>";
