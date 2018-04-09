@@ -17,11 +17,11 @@
 			</tr>
 			<tr>
 				<td>Password :</td>
-				<td><input type="password" name="password" maxlength="30"></td>
+				<td><input type="password" name="password" maxlength="15"></td>
 			</tr>
 			<tr>
 				<td>Confirm Password :</td>
-				<td><input type="password" name="cpassword"></td>
+				<td><input type="password" name="cpassword" maxlength="15"></td>
 			</tr>
 			<tr>
 				<td></td>
