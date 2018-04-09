@@ -32,7 +32,7 @@
 		}
 		else{
 
-
+			echo "<b>Your passwords don't match</b>";
 		}
 	}
 	else{

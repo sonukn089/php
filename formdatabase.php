@@ -9,15 +9,15 @@
 		<table>
 			<tr>
 				<td>Name :</td>
-				<td><input type="text" name="name"></td>
+				<td><input type="text" name="name" maxlength="15"></td>
 			</tr>
 			<tr>
 				<td>Email :</td>
-				<td><input type="text" name="email"></td>
+				<td><input type="text" name="email" maxlength="30"></td>
 			</tr>
 			<tr>
 				<td>Password :</td>
-				<td><input type="password" name="password"></td>
+				<td><input type="password" name="password" maxlength="30"></td>
 			</tr>
 			<tr>
 				<td>Confirm Password :</td>
