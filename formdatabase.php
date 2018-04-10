@@ -29,6 +29,7 @@
 			</tr>	
 		</table>
 	</form>
+	
 	<h3>
 		<center>
 			<?php include("links.php"); ?>
