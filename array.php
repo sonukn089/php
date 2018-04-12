@@ -1,5 +1,8 @@
 <?php
 
+	// $str = "Hello Sonu";
+	// echo $str;
+
 	// $var = 123;
 	// echo $var;
 	
