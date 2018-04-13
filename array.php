@@ -26,4 +26,9 @@
 
 	echo $numbers[2];
 
+	echo "<br>";
+
+	$users = array("Victor", 1, 2, "Bill", "Sonu");
+
+	echo $users[3];	
 ?>
