@@ -15,4 +15,9 @@
 
 	echo $students[1][1][2][0]; 
 
+	echo "<br>";
+	$students = array("Victor");
+
+	echo $students[0][3];
+
 ?>
