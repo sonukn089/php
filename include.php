@@ -1,13 +1,15 @@
 <?php
-	
+	echo "<h1>this is the included the all file.</h1>";
 	include("home.php");
 	echo "<hr>";
 	include ("logical.php");
 	echo "<hr>";
-	include ("loop.php");
+	echo "<h1>this is the Required the all file.</h1>";
+	require ("loop.php");
 	echo "<hr>";
-	include ("array.php");
+	require ("array.php");
 	echo "<hr>";
+	
 	include ("MultidimensionalArray.php");
 
 ?>
