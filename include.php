@@ -9,7 +9,10 @@
 	echo "<hr>";
 	require ("array.php");
 	echo "<hr>";
-	
-	include ("MultidimensionalArray.php");
 
+	require_once ("MultidimensionalArray.php");
+
+	echo "<h2>require once again but it is not working</h2>";
+
+	require_once ("MultidimensionalArray.php");
 ?>
