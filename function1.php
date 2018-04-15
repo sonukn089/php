@@ -5,7 +5,7 @@
 	function mytest1(){
 
 		$x = 5;
-		echo $x; // local scope
+		echo $x; // local vaiable for function
 	}
 
 	mytest1();
